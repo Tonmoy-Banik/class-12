@@ -1,0 +1,50 @@
+:root {
+    --first-font: 'Abril Fatface', cursive;
+    --second-font: 'Open Sans', sans-serif;
+    --third-font: 'Ubuntu', sans-serif;
+    --first-color: #0f2f44
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+ }
+
+ ul,ol,li {
+     list-style-type: none;
+ }
+ a,a:hover{
+    text-decoration: none;
+  }
+ #top_bar{
+    background-color:var(--first-color);
+    color: #c9cdd0;
+    padding: 19px 0;
+    font-family: var(--third-font);
+ }
+ #primary_nav #menu ul li a{
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:var(--third-font);
+    font-weight: 500;
+    text-transform:capitalize;
+    padding:40px 18px;
+    display: inline-block;
+}
+
+#primary_nav #menu ul li button {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background: none;
+    margin:15px 10px;
+}
+#primary_nav #menu ul li a:hover {
+    color: #fff9e6;
+    background-color: #ffd462;
+
+}
+
+#primary_nav #menu ul li button:hover {
+    color: #fff9e6;
+    background-color: #ffd462;
+}
